@@ -5,7 +5,7 @@
 /* @import "@liveblocks/react-ui/styles.css"; */
 /* @import "@liveblocks/react-lexical/styles.css"; */
 
-/* @import "../styles/dark-theme.css"; */
+@import "../styles/dark-theme.css";
 
 /* ========================================== TAILWIND STYLES */
 @layer base {
@@ -197,7 +197,12 @@
 }
 
 .cl-internal-2gzuzc {
-  filter: brightness(1000%);
+  filter: brightness(100%);
+}
+.cl-internal-16vjku6 {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  
 }
 
 .cl-logoBox {
